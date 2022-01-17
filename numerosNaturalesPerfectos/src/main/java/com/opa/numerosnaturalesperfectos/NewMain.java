@@ -1,20 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package com.opa.numerosnaturalesperfectos;
 
-/**
- *
- * @author david
- */
+import java.util.Scanner;
+
 public class NewMain {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-    }
     
-}
+    public static void main(String[] args) {
+        int n;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ingrese un numero");
+        n = sc.nextInt();
+        for (int i = 0; i < 10; i++) {
+            
+        } // fin for
+    } // fin main
+    
+} // fin clase
